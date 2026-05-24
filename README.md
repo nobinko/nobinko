@@ -1,7 +1,8 @@
 # nobinko / tobaccotaro
 
 Cloud Infrastructure Engineer / Operations Automation  
-クラウド基盤、運用自動化、AIエージェント検証、個人開発をしています。
+Cloud infrastructure design, development, maintenance, and operations for enterprise systems, including financial-sector environments.  
+金融系を含むエンタープライズ領域のシステム基盤について、クラウド基盤の設計・開発・保守運用を中心に関わっています。
 
 <p>
   <a href="https://profile-site-8m6.pages.dev/">Portfolio / プロフィールサイト</a> ·
@@ -16,8 +17,8 @@ I like building small systems that actually run, then improving them through rea
 
 ## Current Focus / 最近やっていること
 
-- Cloud infrastructure design and operations  
-  クラウド基盤の設計・構築・運用
+- Cloud infrastructure design, development, maintenance, and operations for enterprise systems, including financial-sector environments  
+  金融系を含むエンタープライズ領域におけるクラウド基盤の設計・開発・保守運用
 - Operations automation and reliability improvement  
   運用自動化と信頼性改善
 - AI agent validation with Claude Code, Amazon Bedrock, AWS, and local LLMs  
@@ -96,4 +97,4 @@ MTGの実況・盤面OCR・ハンド公開メモ・チャット由来の情報�
 
 ## Keywords / キーワード
 
-`Cloud Infrastructure` `Operations Automation` `AI-assisted Development` `TypeScript` `WebSocket` `Canvas 2D` `AWS` `Amazon Bedrock` `Supabase` `Render` `OCR` `Broadcast Tools`
+`Cloud Infrastructure` `Enterprise Systems` `Financial-sector Environments` `Operations Automation` `AI-assisted Development` `TypeScript` `WebSocket` `Canvas 2D` `AWS` `Amazon Bedrock` `Supabase` `Render` `OCR` `Broadcast Tools`
