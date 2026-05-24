@@ -3,6 +3,12 @@
 Cloud Infrastructure Engineer / Operations Automation  
 クラウド基盤、運用自動化、AIエージェント検証、個人開発をしています。
 
+<p>
+  <a href="https://profile-site-8m6.pages.dev/">Portfolio</a> ·
+  <a href="https://tanktaktix.onrender.com">Play TankTaktix</a> ·
+  <a href="https://github.com/nobinko/mtg-card-image-suggest">MTG Broadcast Assist Prototype</a>
+</p>
+
 I like building small systems that actually run, then improving them through real feedback.
 
 ---
@@ -17,7 +23,7 @@ I like building small systems that actually run, then improving them through rea
 
 ---
 
-## Project / 個人開発
+## Featured Projects / 主要プロジェクト
 
 ### TankTaktix
 
@@ -46,6 +52,24 @@ TankTaktix は、見やすい戦闘、反応のよい操作感、マップごと
 - Portfolio: https://profile-site-8m6.pages.dev/
 - Repo: private for now
 
+### MTG Broadcast Assist Prototype
+
+Prototype for helping MTG broadcast operators select likely card images from commentary, OCR, hand notes, and chat-derived hints.
+
+MTGの実況・盤面OCR・ハンド公開メモ・チャット由来の情報からカード候補を出し、放送オペレーターが `Preview` と `Live` を分けて扱える補助プロトタイプです。
+
+**Technical / product notes**
+
+- Operator console and overlay view
+- Candidate evidence badges
+- Preview → Take Live workflow
+- EN / JA / KO display language switching
+- OCR, speech recognition, deck-context, and manual hint inputs
+
+**Link**
+
+- Repo: https://github.com/nobinko/mtg-card-image-suggest
+
 ---
 
 ## Work Style / 進め方
@@ -58,4 +82,4 @@ TankTaktix は、見やすい戦闘、反応のよい操作感、マップごと
 
 ## Keywords
 
-`Cloud Infrastructure` `Operations Automation` `AI-assisted Development` `TypeScript` `WebSocket` `Canvas 2D` `AWS` `Amazon Bedrock` `Supabase` `Render`
+`Cloud Infrastructure` `Operations Automation` `AI-assisted Development` `TypeScript` `WebSocket` `Canvas 2D` `AWS` `Amazon Bedrock` `Supabase` `Render` `OCR` `Broadcast Tools`
