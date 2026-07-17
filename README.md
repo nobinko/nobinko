@@ -6,6 +6,7 @@ Cloud infrastructure design, development, maintenance, and operations for enterp
 
 <p>
   <a href="https://profile-site-8m6.pages.dev/">Portfolio / プロフィールサイト</a> ·
+  <a href="https://x.com/nobinko">X (@nobinko)</a> ·
   <a href="https://tanktaktix.com">Play TankTaktix / 遊ぶ</a> ·
   <a href="https://github.com/nobinko/mtg-token">MTG Token Finder</a> ·
   <a href="https://github.com/nobinko/mtg-card-image-suggest">MTG Broadcast Assist Prototype</a>
@@ -24,6 +25,8 @@ I like building small systems that actually run, then improving them through rea
   運用自動化と信頼性改善
 - AI agent validation with Claude Code, Amazon Bedrock, AWS, and local LLMs  
   Claude Code、Amazon Bedrock、AWS、ローカルLLMを使ったAIエージェント検証
+- Planning and running AI pilot programs and internal PoCs in enterprise environments  
+  エンタープライズ領域でのAI関連パイロット・社内PoCの企画・推進
 - Purchaser-side engineering judgment: estimation, architecture review, and vendor proposal validation  
   発注者側の技術判断。見積妥当性、アーキテクチャレビュー、ベンダー提案の検証
 - Personal knowledge operations with Google Drive, Claude, and ChatGPT  
@@ -56,11 +59,13 @@ TankTaktix は、見やすい戦闘、反応のよい操作感、マップごと
 - Map editor with share codes / share code で共有できる Map Editor
 - Discord OAuth2 / Discord OAuth2 認証
 - Supabase / Supabase 連携
-- Render deployment / Render デプロイ
+- Self-hosted VPS with Caddy / 自己管理 VPS（Caddy）
 
 **Links / リンク**
 
 - Play / 遊ぶ: https://tanktaktix.com
+- Discord: https://discord.gg/tb4sBzXjPG
+- X / Twitter: https://x.com/TankTaktixGame
 - Portfolio / プロフィールサイト: https://profile-site-8m6.pages.dev/
 - Repo / リポジトリ: private for now / 現時点では非公開
 
@@ -128,4 +133,4 @@ MTGの実況・盤面OCR・ハンド公開メモ・チャット由来の情報�
 
 ## Keywords / キーワード
 
-`Cloud Infrastructure` `Enterprise Systems` `Financial-sector Environments` `Operations Automation` `AI-assisted Development` `TypeScript` `Node.js` `WebSocket` `Canvas 2D` `AWS` `Amazon Bedrock` `Supabase` `Render` `OCR` `Scryfall` `Broadcast Tools`
+`Cloud Infrastructure` `Enterprise Systems` `Financial-sector Environments` `Operations Automation` `AI-assisted Development` `TypeScript` `Node.js` `WebSocket` `Canvas 2D` `AWS` `Amazon Bedrock` `Supabase` `Caddy` `OCR` `Scryfall` `Broadcast Tools`
