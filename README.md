@@ -6,7 +6,8 @@ Cloud infrastructure design, development, maintenance, and operations for enterp
 
 <p>
   <a href="https://profile-site-8m6.pages.dev/">Portfolio / プロフィールサイト</a> ·
-  <a href="https://tanktaktix.onrender.com">Play TankTaktix / 遊ぶ</a> ·
+  <a href="https://tanktaktix.com">Play TankTaktix / 遊ぶ</a> ·
+  <a href="https://github.com/nobinko/mtg-token">MTG Token Finder</a> ·
   <a href="https://github.com/nobinko/mtg-card-image-suggest">MTG Broadcast Assist Prototype</a>
 </p>
 
@@ -38,6 +39,9 @@ Browser-based tactical tank game focused on readable combat, responsive controls
 
 TankTaktix は、見やすい戦闘、反応のよい操作感、マップごとの戦術性を重視したブラウザ向けタンクゲームです。
 
+**Now in Open Beta (since 2026-07-11).** One match takes about five minutes, no install needed.  
+**オープンβ公開中（2026-07-11 開始）。** 1マッチ約5分、インストール不要でブラウザからすぐ遊べます。
+
 ![TankTaktix battle screen](https://profile-site-8m6.pages.dev/assets/tanktaktix-battle.svg)
 
 **Technical highlights / 技術要素**
@@ -49,15 +53,42 @@ TankTaktix は、見やすい戦闘、反応のよい操作感、マップごと
 - Runtime geometry / 実行時ジオメトリ
 - Bot players / Bot プレイヤー
 - Cloud maps / クラウドマップ
+- Map editor with share codes / share code で共有できる Map Editor
 - Discord OAuth2 / Discord OAuth2 認証
 - Supabase / Supabase 連携
 - Render deployment / Render デプロイ
 
 **Links / リンク**
 
-- Play / 遊ぶ: https://tanktaktix.onrender.com
+- Play / 遊ぶ: https://tanktaktix.com
 - Portfolio / プロフィールサイト: https://profile-site-8m6.pages.dev/
 - Repo / リポジトリ: private for now / 現時点では非公開
+
+### MTG Token Finder
+
+Local web tool for MTG feature-match broadcast prep. Not a card search but a field prep sheet: it gathers current-format tournament decklists and lists the physical tokens, emblems, copies, and face-down helpers to pull from bulk, in an easy-to-find order.
+
+フィーチャー卓の配信準備で、バルクのトークン束から必要な現物を抜き出すためのローカル Web ツールです。「カード検索」ではなく「現場の準備表」として、現環境の大会デッキリストからトークン・紋章・物理コピー・裏向き補助などの現物候補を探しやすい順に並べます。
+
+**Technical / product notes / 技術・プロダクト要素**
+
+- Format-aware decklist crawling (MTGO, MTGTop8, magic.gg, Hareruya) filtered to the current season  
+  MTGO公式・MTGTop8・magic.gg・晴れる屋をフォーマット別に巡回し、現環境開始日で古いリストを除外
+- Token-producer extraction with adoption counts and archetype trends  
+  トークン生成カードの抽出と、採用デッキ数・アーキタイプ傾向の表示
+- Japanese card names and images backfilled after the initial pass  
+  日本語名・日本語画像の後追い補完
+- Expansion / release-date sorting, unchecked-only filter, and print view  
+  エキスパンション順・発売日順ソート、未チェックのみ表示、印刷用表示
+- One-click local start via `start.bat`  
+  `start.bat` ダブルクリックでローカル起動
+
+**Link / リンク**
+
+- Repo / リポジトリ: https://github.com/nobinko/mtg-token
+
+Unofficial Fan Content. Card data and images belong to Wizards of the Coast.  
+非公式 Fan Content です。カード画像・テキスト等の権利は Wizards of the Coast に帰属します。
 
 ### MTG Broadcast Assist Prototype
 
@@ -97,4 +128,4 @@ MTGの実況・盤面OCR・ハンド公開メモ・チャット由来の情報�
 
 ## Keywords / キーワード
 
-`Cloud Infrastructure` `Enterprise Systems` `Financial-sector Environments` `Operations Automation` `AI-assisted Development` `TypeScript` `WebSocket` `Canvas 2D` `AWS` `Amazon Bedrock` `Supabase` `Render` `OCR` `Broadcast Tools`
+`Cloud Infrastructure` `Enterprise Systems` `Financial-sector Environments` `Operations Automation` `AI-assisted Development` `TypeScript` `Node.js` `WebSocket` `Canvas 2D` `AWS` `Amazon Bedrock` `Supabase` `Render` `OCR` `Scryfall` `Broadcast Tools`
