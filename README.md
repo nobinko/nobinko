@@ -45,7 +45,7 @@ TankTaktix は、見やすい戦闘、反応のよい操作感、マップごと
 **Now in Open Beta (since 2026-07-11).** One match takes about five minutes, no install needed.  
 **オープンβ公開中（2026-07-11 開始）。** 1マッチ約5分、インストール不要でブラウザからすぐ遊べます。
 
-![TankTaktix battle screen](https://profile-site-8m6.pages.dev/assets/tanktaktix-battle.svg)
+![TankTaktix battle screen — live CTF match](https://profile-site-8m6.pages.dev/assets/tanktaktix-battle.webp)
 
 **Technical highlights / 技術要素**
 
