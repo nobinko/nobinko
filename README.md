@@ -9,7 +9,8 @@ Cloud infrastructure design, development, maintenance, and operations for enterp
   <a href="https://x.com/nobinko">X (@nobinko)</a> ·
   <a href="https://tanktaktix.com">Play TankTaktix / 遊ぶ</a> ·
   <a href="https://github.com/nobinko/mtg-token">MTG Token Finder</a> ·
-  <a href="https://github.com/nobinko/mtg-card-image-suggest">MTG Broadcast Assist Prototype</a>
+  <a href="https://github.com/nobinko/mtg-card-image-suggest">MTG Broadcast Assist Prototype</a> ·
+  <a href="https://note.com/nobinko/n/n75c81dcc24f6">note / 記事</a>
 </p>
 
 I like building small systems that actually run, then improving them through real feedback.  
